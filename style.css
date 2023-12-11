@@ -36,6 +36,7 @@ p {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 0px;
+    border-radius: 0.5rem;
 }
 
 .grid-card.text {
@@ -43,10 +44,23 @@ p {
     padding-right: 4rem;
 }
 
+
 img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    opacity: 80%;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    
+}
+
+.grid-card.img {
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    background: var(--soft-violet);
 }
 
 .stats-container {
@@ -62,6 +76,8 @@ img {
     font-size: 0.75rem;
     letter-spacing: 0.1rem;
 }
+
+
 
 
 @media screen and (max-width: 900px) {
@@ -85,5 +101,13 @@ img {
     }
     .stats-card h3{
         font-size: 1.5rem;
+    }
+    img {
+    border-top-left-radius: 0.5rem;
+    border-bottom-right-radius: 0;
+    }
+    .grid-card.img {
+    border-top-left-radius: 0.5rem;
+    border-bottom-right-radius: 0;
     }
 }
