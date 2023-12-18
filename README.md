@@ -21,7 +21,9 @@ Users should be able to:
 
 ### Screenshot
 
-![](https://github.com/FNH99/order-summary-component-main/blob/master/images/screenshot.png)
+![](https://github.com/FNH99/stats-preview-card-component-main/blob/main/images/screenshot-desktop.png)
+
+![](https://github.com/FNH99/stats-preview-card-component-main/blob/main/images/screenshot-mobile.png)
 
 ### Links
 
