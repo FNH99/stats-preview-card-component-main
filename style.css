@@ -32,6 +32,7 @@ p {
 
 .grid-container {
     margin: 0 auto; /*center a div*/
+    margin-top: 15vh;
     max-width: 60vw;
     background-color: var(--dark-desaturated-blue);
     display: grid;
